@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
 
-
+# sobel x and sobel y
 def abs_sobel_thresh(img, orient, sobel_kernel=3, thresh=(0, 255)):
 
     if orient == 'x':
